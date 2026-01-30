@@ -1,4 +1,4 @@
-var key = "";
+var key = "wingedKeys";
 
 
 // SAVE
