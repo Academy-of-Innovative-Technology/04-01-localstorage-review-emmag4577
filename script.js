@@ -27,7 +27,9 @@ document.querySelector(".load").onclick = function() {
 
 // update
 document.querySelector(".update").onclick = function() {
-
+    var newValue = document.querySelector("#updateValue").value;
+    localStorage.setItem(key, newValue);
+    document.querySelector("#updateValue").value = "";
 };
 
 // DELETE
