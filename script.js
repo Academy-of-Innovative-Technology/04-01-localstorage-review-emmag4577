@@ -19,7 +19,7 @@ document.querySelector(".load").onclick = function() {
     if (data == null){
             document.querySelector("#loadValue").value = key + " has been deleted";
     } else {
-        document.querySelector("loadValue").value = data;
+        document.querySelector("#loadValue").value = data;
     }
 
 };
