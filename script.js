@@ -33,7 +33,8 @@ document.querySelector(".update").onclick = function() {
 };
 
 // DELETE
-document.querySelector(".delete").onclick = function() {
-
-};
+function deleteData(){
+    var deleteKey = document.querySelector("#deleteKey").value;
+    localStorage.removeItem(deleteKey);
+}
 //
