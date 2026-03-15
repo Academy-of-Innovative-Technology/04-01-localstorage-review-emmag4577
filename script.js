@@ -1,4 +1,3 @@
-var key = "wingedKeys";
 var key = "storage";
 
 
