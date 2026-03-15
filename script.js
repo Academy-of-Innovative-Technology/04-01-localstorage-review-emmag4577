@@ -36,4 +36,4 @@ function deleteData(){
     var deleteKey = document.querySelector("#deleteKey").value;
     localStorage.removeItem(deleteKey);
 }
-//
+//completed
