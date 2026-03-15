@@ -5,6 +5,14 @@ var key = "storage";
 // SAVE
 document.querySelector(".save").onclick = function() {
 
+    var value = document.querySelector("#saveValue").value;
+
+    localStorage.setItem(key, value);
+
+    document.querySelector("#saveValue").value = "";
+
+
+
 };
 
 
